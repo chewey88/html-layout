@@ -1,0 +1,74 @@
+body{
+    
+    padding: 20px;
+}
+.shape-box {
+    width: 100%;
+    height:200px;
+    background: white;
+    border: 5px solid black;
+}
+.small-rectangle{
+    height: 120px;
+    width: 40px;
+    background:purple;
+    display: inline-block;
+    margin: 1%;
+    
+    
+
+
+
+}
+.large-rectangle{
+    display: inline-block;
+    height: 180px;
+    width: 450px;
+    background: green;
+    margin: 0px 50px;
+    margin-top: 10px;
+
+}
+.circle{
+    border-radius:50% ;
+    display: inline-block;
+    background:cyan;
+    height: 180px;
+    width: 180px ;
+
+}
+.signiture-line {
+    width: 100%;
+    height: 300px;
+    display: block;
+    border: 5px dotted black;
+    margin: 20px;
+
+}
+.shadow-box{
+    width: 80%;
+    height: 200px;
+    -webkit-box-shadow:10px 10px 5px 5px;
+    background: lemonchiffon;
+    margin: auto;
+    margin-top: 35px;
+    
+    
+
+}
+.comment-box{
+    width: 30%;
+    padding: 100px;
+    border: 2px solid gray;
+    display: inline-block;
+    margin: 20px 30%;
+    
+
+}
+.comment-box h1{
+    text-align: center;
+    width: 100%;
+    color: blue;
+    letter-spacing: 7px;
+    
+}
